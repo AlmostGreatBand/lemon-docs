@@ -27,6 +27,7 @@ Represents either bank cards or cash.
 Represents money transaction from or to card.
 | Field    | Type   | Description   |
 |----------|--------|---------------|
+| transaction_id  | Int    | Transaction id in Lemon🍋 |
 | card_id  | Int    | Card id in Lemon🍋 |
 | amount   | Int    | Amount of money transfered during this transaction.<br>Amount is negative is money were transfered from card and positive in other case. |
 | type  | String    | Description of transaction. This value is not determined by Lemon🍋.<br>__Examples of possible values__: `Cafe`, `Bus ticket`, etc.|
